@@ -136,7 +136,7 @@ void matrix_init_user(void) {
 
     idle_second_counter = 0;
     rgb_time_out_seconds = RGB_DEFAULT_TIME_OUT;
-    rgb_time_out_enable = true;
+    rgb_time_out_enable = false;
     rgb_enabled_flag = true;
     rgb_time_out_user_value = true;
     rgb_time_out_fast_mode_enabled = false;
